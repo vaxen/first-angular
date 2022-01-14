@@ -1,5 +1,2 @@
-<div class="container">
-  <h1>Hello from server component</h1>
-  <warning-alert></warning-alert>
-  <success-alert></success-alert>
-</div>
+<p [ngStyle]="{backgroundColor: getStatusColor()}">
+  ServerName: <b>{{server.name}}</b> ServerStatus: <b>{{server.status}}</b></p>
